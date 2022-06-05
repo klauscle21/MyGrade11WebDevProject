@@ -1,76 +1,102 @@
 video#bgVideo {
-  position: absolute; // Play the video in full screen mode
-  top: 0px; 
-  left: 0px; 
-  min-width: 100%; 
-  min-height: 100%;
-  z-index: -1; // Put the video behind all other elements
+    /* // Play the video in full screen mode */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    /* // Put the video behind all other elements */
+    min-height: 100%;
+    z-index: -1;
 }
 
 @media only screen and (max-width) {
-  video {
-    display:none;
-  }
-  body{
-    background-image:url(“image.png”);
-  }
+    video {
+        display: none;
+    }
+    body {
+        background-image: url(“image.png”);
+    }
 }
 
-img{
-		display: block;
-	    margin: auto;
-	    width: 25%;
-	    height: 50%%;
-	    border-style: solid; 
-		border-color: yellow;
-		padding: 3px;
-	}
-
-.text{
-		font-family: showcard gothic;
-		color: chocolate;
-		font-size: 50px;
+img {
+    display: block;
+    margin: auto;
+    width: 25%;
+    height: 60%;
+    border-style: solid;
+    border-color: yellow;
+    padding: 3px;
 }
 
-p{
-		font-family: times new roman;
-		color: yellow ;
-		font-size: 25px;
-		text-shadow: 2px 2px 2px blue;
+.text {
+    font-family: showcard gothic;
+    color: chocolate;
+    font-size: 50px;
 }
 
-.success {	background-image: url(images/sky.jpg);
-			border-color: aqua;
-			padding: 15px 25px;
-			font-size: 20px;
-			margin-right:5px;} 
-.success:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+p {
+    font-family: times new roman;
+    color: yellow;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px blue;
+}
 
+.success {
+    background-image: url(images/sky.jpg);
+    border-color: aqua;
+    padding: 15px 25px;
+    font-size: 20px;
+    margin-right: 5px;
+}
 
-.info {		background-image: url(images/sky.jpg);
-			border-color: aqua;
-			padding: 15px 25px;
-			font-size: 20px;
-			margin-right:5px;} 
-.info:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+.success:hover {
+    background: linear-gradient(red, orange, yellow, orange, red);
+}
 
-.warning {	background-image: url(images/sky.jpg);	
-			border-color: aqua;
-			padding: 15px 25px;
-			font-size: 20px;
-			margin-right:5px;} 
-.warning:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+.info {
+    background-image: url(images/sky.jpg);
+    border-color: aqua;
+    padding: 15px 25px;
+    font-size: 20px;
+    margin-right: 5px;
+}
 
-.danger {	background-image: url(images/sky.jpg);
-			border-color: aqua;	
-			padding: 15px 25px;
-			font-size: 20px;
-			margin-right:5px;} 
-.danger:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+.info:hover {
+    background: linear-gradient(red, orange, yellow, orange, red);
+}
 
-.default {	background-image: url(images/sky.jpg);
-			border-color: aqua;	
-			padding: 15px 25px;
-			font-size: 20px;
-			margin-right:5px;} 
-.default:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+.warning {
+    background-image: url(images/sky.jpg);
+    border-color: aqua;
+    padding: 15px 25px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.warning:hover {
+    background: linear-gradient(red, orange, yellow, orange, red);
+}
+
+.danger {
+    background-image: url(images/sky.jpg);
+    border-color: aqua;
+    padding: 15px 25px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.danger:hover {
+    background: linear-gradient(red, orange, yellow, orange, red);
+}
+
+.default {
+    background-image: url(images/sky.jpg);
+    border-color: aqua;
+    padding: 15px 25px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.default:hover {
+    background: linear-gradient(red, orange, yellow, orange, red);
+}
