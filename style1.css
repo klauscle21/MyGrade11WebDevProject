@@ -1,0 +1,107 @@
+body {
+		background-image: url(images/black-wallpaper-10.jpg);	
+		background-size: cover;
+		background-attachment: fixed;
+}
+
+h1{
+		font-family: showcard gothic;
+		color: chocolate;
+		font-size: 40px;
+}
+
+h2{
+		font-family: Times new roman;
+		font-weight: bold;
+		color: blue;
+		text-align: center;
+		text-shadow: 2px 2px 2px black;
+}
+
+p{
+		font-family: times new roman;
+		color: black ;
+		font-size: 20px;
+		text-shadow: 2px 2px 2px red;
+}
+
+.trailers {
+		background-color: gold;
+		color: black;
+		height: 70%;
+    	width: 80%;
+		padding: 10px;
+		text-align: justify;
+		border-style: dashed; 
+		border-color: blue;
+}
+
+video{
+	width: 80%;
+    height: 75%;
+}
+
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    
+}
+
+li {
+    float: left;
+    margin-right: 2px;
+
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: blue;
+}
+
+li a:hover {
+    background:linear-gradient(red,orange,yellow,orange,red);
+}
+
+.success {	background-image: url(images/sky.jpg);
+			border-color: aqua;
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.success:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+
+
+.info {		background-image: url(images/sky.jpg);
+			border-color: aqua;
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.info:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+
+.warning {	background-image: url(images/sky.jpg);	
+			border-color: aqua;
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.warning:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+
+.danger {	background-image: url(images/sky.jpg);
+			border-color: aqua;	
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.danger:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+
+.default {	background-image: url(images/sky.jpg);
+			border-color: aqua;	
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.default:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+

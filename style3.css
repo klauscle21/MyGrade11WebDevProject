@@ -1,0 +1,122 @@
+body {
+		background-image: url(images/maxresdefault.jpg);	
+		background-size: cover;
+		background-attachment: fixed;
+}
+
+h1{
+		font-family: showcard gothic;
+		color: chocolate;
+}
+
+p.description{
+		font-family: times new roman;
+		font-weight: bold;
+		color: blue ;
+		font-size: 20px;
+		text-shadow: 2px 2px 2px red;
+}
+
+p.artist{
+		font-family: Broadway;
+		font-weight: bold;
+		color: blue ;
+		font-size: 40px;
+		text-shadow: 2px 2px 2px red;
+}
+
+img{
+		display: block;
+	    margin: auto;
+	    width: 25%;
+	    height: 30%;
+	}
+
+tr{
+		background-color: yellowgreen;
+		text-align: center;
+}
+
+th{
+		font-size: 20;
+}
+
+.taylor {
+		background-color: gold;
+		color: black;
+		height: 80%;
+    	width: 80%;
+		padding: 10px;
+		text-align: justify;
+		border-style: dashed; 
+		border-color: blue;
+}
+
+.ed {
+		background-color: gold;
+		color: black;
+		height: 70%;
+    	width: 80%;
+		padding: 10px;
+		text-align: justify;
+		border-style: dashed; 
+		border-color: blue;
+}
+
+.westlife{
+		background-color: gold;
+		color: black;
+		height: 85%;
+    	width: 80%;
+		padding: 10px;
+		text-align: justify;
+		border-style: dashed; 
+		border-color: blue;
+}
+
+.avril{
+		background-color: gold;
+		color: black;
+		height: 65%;
+    	width: 80%;
+		padding: 10px;
+		text-align: justify;
+		border-style: dashed; 
+		border-color: blue;
+}
+
+.success {	background-image: url(images/sky.jpg);
+			border-color: aqua;
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.success:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+
+
+.info {		background-image: url(images/sky.jpg);
+			border-color: aqua;
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.info:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+
+.warning {	background-image: url(images/sky.jpg);	
+			border-color: aqua;
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.warning:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+
+.danger {	background-image: url(images/sky.jpg);
+			border-color: aqua;	
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.danger:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+
+.default {	background-image: url(images/sky.jpg);
+			border-color: aqua;	
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.default:hover {background:linear-gradient(red,orange,yellow,orange,red);}

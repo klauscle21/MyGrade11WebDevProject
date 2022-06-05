@@ -1,0 +1,195 @@
+h1{
+		font-family: showcard gothic;
+		color: chocolate;
+		font-size: 40px;
+}
+
+
+.upper{
+	height: 10%;
+	width: 100%;
+	background-image: url(images/home.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+}
+
+.parallax{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/curtain.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+}
+
+p.a{
+	font-family: times new roman;
+	font-weight: bold;
+	color: #FFFF00 ;
+	font-size: 45px;
+	margin: 20% 0;
+	text-shadow: 2px 2px 2px blue;
+}
+
+.parallax1{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/london.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+}
+
+p.b{
+	font-family: times new roman;
+	font-weight: bold;
+	color: Deepskyblue;
+	font-size: 45px;
+	margin: 20% 0;
+	text-shadow: 2px 2px 2px black;
+}
+
+.parallax2{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/switzerland.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+}
+
+p.c{
+	font-family: times new roman;
+	font-weight: bold;
+	color: Black;
+	font-size: 45px;
+	margin: 20% 0;
+	text-shadow: 2px 2px 2px blue;
+}
+
+.parallax3{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/newYORK.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+}
+
+p.d{
+	font-family: times new roman;
+	font-weight: bold;
+	color: lawngreen;
+	font-size: 45px;
+	margin: 20% 0;
+	text-shadow: 2px 2px 2px brown;
+}
+
+.parallax4{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/towerOFpisa.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+}
+
+p.e{
+	font-family: times new roman;
+	font-weight: bold;
+	color: firebrick;
+	font-size: 45px;
+	margin: 20% 0;
+	text-shadow: 2px 2px 2px gold;
+}
+
+.parallax5{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/vaticanCITY.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+}
+
+p.f{
+	font-family: times new roman;
+	font-weight: bold;
+	color: blue;
+	font-size: 45px;
+	margin: 20% 0;
+	text-shadow: 2px 2px 2px yellow;
+}
+
+.parallax6{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/paris.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+}
+
+p.g{
+	font-family: times new roman;
+	font-weight: bold;
+	color: red;
+	font-size: 45px;
+	margin: 20% 0;
+	text-shadow: 2px 2px 2px black;
+}
+
+.parallax7{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/venice.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+}
+
+p.h{
+	font-family: times new roman;
+	font-weight: bold;
+	color: yellow;
+	font-size: 45px;
+	margin: 20% 0;
+	text-shadow: 2px 2px 2px blue;
+}
+
+.success {	background-image: url(images/sky.jpg);
+			border-color: aqua;
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.success:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+
+
+.info {		background-image: url(images/sky.jpg);
+			border-color: aqua;
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.info:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+
+.warning {	background-image: url(images/sky.jpg);	
+			border-color: aqua;
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.warning:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+
+.danger {	background-image: url(images/sky.jpg);
+			border-color: aqua;	
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.danger:hover {background:linear-gradient(red,orange,yellow,orange,red);}
+
+.default {	background-image: url(images/sky.jpg);
+			border-color: aqua;	
+			padding: 15px 25px;
+			font-size: 20px;
+			margin-right:5px;} 
+.default:hover {background:linear-gradient(red,orange,yellow,orange,red);}
